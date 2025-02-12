@@ -41,8 +41,6 @@ public class Lr_2 {
         double result = x + 2 * (Math.pow(y, 3) - 4 * x) - PI * (Math.pow(x, 3) + Math.pow(y, 2));
             
         System.out.printf("Результат: %.2f\n", result);
-
-        scanner.close();
     }
 
     public static void exercise_2() {
@@ -62,7 +60,5 @@ public class Lr_2 {
         double area = 0.5 * (Math.pow(outerRadius, 2) - Math.pow(innerRadius, 2)) * angleRadians;
             
         System.out.printf("Площадь сектора кольца: %.2f\n", area);
-
-        scanner.close();
     }
 }
